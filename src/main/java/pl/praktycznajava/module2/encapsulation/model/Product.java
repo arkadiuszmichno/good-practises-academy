@@ -18,5 +18,4 @@ public class Product {
     BigDecimal price;
     int stockQuantity;
     double weight;
-
 }

@@ -8,4 +8,8 @@ public class Address {
     String postalCode;
     String city;
     String country;
+
+    public boolean isPolandCountry() {
+        return country.equals("Polska");
+    }
 }
